@@ -1,0 +1,150 @@
+html *
+{
+   font-size: 1em !important;
+   font-family: Arial, Helvetica, sans-serif !important;
+}
+body {
+    font: normal 10px Verdana, Arial, sans-serif;
+    background: #2b353fb2;
+}
+/* E-SPORT--------------------------------------------------------------------- */
+@keyframes example {
+    0%   {color:#00b9e7; left:0px; top:100px;}
+    50%  {color:#bee4ee; left:200px; top:100px;}
+    100% {color:#00b9e7; left:0px; top:100px;}
+}
+.loading{
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: #00b9e7;
+    font-size: 3em !important;
+}
+.e-sport{
+    max-width: 1500px !important;
+}
+.match-list{
+    float: right;
+}
+.game-btn-container{
+    position: fixed;
+    z-index: 100;
+    margin: 0;
+}
+.gameBtn{
+    display: block;
+    width: 100%;
+    background: #0c1620;
+    color: white;
+    border: none;
+    padding: 1em 0.5em 1em 0.5em;
+    margin: 0;
+    border-left: 4px solid #0c1620; 
+
+}
+.gameBtn:hover{
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+.gameBtn:focus {
+    outline:0;
+    border-left: 4px solid #00b9e7;
+    background: #03090f; 
+}
+/* CARD--------------------------------------------------------------------- */
+.card-head{
+    background: #2b353f;
+    color: white;
+}
+.card-info{
+    background: #19222b;
+    color: white;
+}
+.card-head>div, .card-info>div{
+    padding: 0.4em;
+    text-align: center;
+}
+.esport-match-name{
+    text-align: left !important;
+}
+.odd{
+    border-left:1px solid #2b353f;
+    text-align: center;
+    background: #0c1620;
+}
+.esport-match-name span{
+    font-size: 0.8em !important;
+    color: rgb(248, 250, 128);
+}
+
+/* NAVIGATION---------------------------------------------------------------- */
+a.nav-link {
+    display: inline-block;
+    color: #dfeeff;
+}
+
+a.nav-link:hover {
+    color: white;
+    text-shadow: 1px 1px 50px rgb(255, 255, 255);
+}
+
+a.nav-link.active {
+    color: #ffffff;
+    text-shadow: 1px 1px 50px rgb(255, 255, 255);
+}
+
+.space-top {
+    margin-top: 2em;
+}
+
+.navbar span {
+    color: #ffffff;
+}
+
+.card-blockquote>img {
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 1em;
+}
+
+.selected {
+	background: #666666;
+}
+#month{
+    text-align: center
+}
+.card {
+    border-width: 3px
+}
+
+.bg-secondary {
+    color: #666666 !important ;
+    background-color: #03090f !important;
+    border-bottom: 2px solid #00b9e7; 
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .game-btn-container{
+        position: relative;
+    }
+    .card-head{
+        display: none;
+    }
+    .card-info{
+        margin-top: 10px; 
+    }
+    .odd{
+        display: inline-block;
+        padding: 0;
+        width: 33%;
+        margin: 0;
+    }
+    .esport-match-name{
+        text-align: center !important;
+    }
+}

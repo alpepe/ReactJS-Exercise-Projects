@@ -1,0 +1,112 @@
+a.nav-link {
+    display: inline-block;
+    color: #dfeeff;
+}
+
+a.nav-link:hover {
+    color: white;
+    text-shadow: 1px 1px 50px rgb(255, 255, 255);
+}
+
+a.nav-link.active {
+    color: #ffffff;
+    text-shadow: 1px 1px 50px rgb(255, 255, 255);
+}
+
+.space-top {
+    margin-top: 2em;
+}
+
+.navbar span {
+    color: #ffffff;
+}
+
+.card-blockquote>img {
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 1em;
+}
+
+.selected {
+	background: #666666;
+}
+#month{
+    text-align: center
+}
+.card {
+    border-width: 3px
+}
+
+th, td{
+    border-color: #666666 !important;
+}
+
+.bg-secondary {
+    color: #666666 !important ;
+    background-color: #4b6785 !important;
+}
+body{
+    background-color: rgb(255, 255, 255)
+}
+.form-control-feedback{
+    color: rgb(255, 101, 101);
+}
+.red{
+    box-shadow: 1px 1px 5px red;
+}
+
+.hotel-card{
+    width: 200px;
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .hotel-card>img{
+      width: 90%;
+  }
+
+  .hotel-card>Link{
+    display: inline-block;
+  }
+  
+  .pagination{
+      display: block;
+      text-align: center;
+      font-size: 30px;
+      margin-top: 40px;
+  }
+
+  .pagination>a{
+      text-decoration: none;
+      margin: 10px;
+      background: #4b6785;
+      padding: 5px 20px 5px 20px;
+      color: white
+  }
+
+  .pagination>a:hover{
+    text-decoration: none;
+    margin: 10px;
+    background: rgb(129, 184, 255);
+    padding: 5px 20px 5px 20px;
+}
+
+.hotel-details{
+margin: 2em;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.hotel-details>div{
+    margin: 2em
+
+}
+
+.hotel-details img{
+    width: 200px;
+}
+
